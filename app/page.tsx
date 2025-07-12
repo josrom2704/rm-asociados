@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold">¿Estás listo para enfrentar a Hacienda?</h1>
           <p className="mt-2">R&M Asociados - Contabilidad sin excusas.</p>
           <a
-            href="https://wa.me/50370656561?text=Quiero%20una%20consulta%20contable"
+            href="https://wa.me/50376416944?text=Quiero%20una%20consulta%20contable"
             className="inline-block mt-6 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded"
           >
             Agenda tu consulta gratis ahora
