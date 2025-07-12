@@ -23,6 +23,7 @@ export default function Home() {
           >
             Agenda tu consulta gratis ahora
           </a>
+          
         </div>
       </header>
 
