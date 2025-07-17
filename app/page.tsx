@@ -50,7 +50,7 @@ export default function Home() {
       const name = (document.getElementById("name") as HTMLInputElement).value;
       const phone = (document.getElementById("phone") as HTMLInputElement).value;
       const message = (document.getElementById("message") as HTMLInputElement).value;
-      const url = `https://wa.me/50370656561?text=Hola,%20soy%20${encodeURIComponent(name)}%20(${phone}).%20${encodeURIComponent(message)}`;
+      const url = `https://wa.me/50376416944?text=Hola,%20soy%20${encodeURIComponent(name)}%20(${phone}).%20${encodeURIComponent(message)}`;
       window.open(url, "_blank");
     }}
     className="max-w-xl mx-auto grid gap-4"
