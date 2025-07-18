@@ -53,10 +53,11 @@ export default function Home() {
     <div className="max-w-5xl mx-auto text-center">
      <h2 className="text-4xl font-bold mb-6">¿Quiénes somos?</h2>
       <p className="text-lg mb-4 leading-relaxed">
-      <strong>R&M Asociados</strong> mensaje tu ponelo apa
+      <strong>R&M Asociados</strong> En R&M Asociados somos una firma regional comprometida con el crecimiento y la rentabilidad de las empresas. Brindamos asesoría especializada en áreas legales, contables y empresariales, acompañando a nuestros clientes en cada etapa de su desarrollo. Nos destacamos por ofrecer soluciones prácticas como la creación de manuales de procesos, control interno y diagnósticos operativos. También aplicamos principios de ingeniería empresarial para optimizar operaciones en negocios en marcha.
+      Con más de 10 años de experiencia, combinamos auditoría, consultoría y gestión estratégica para que tu empresa no solo cumpla con sus obligaciones, sino que crezca con bases sólidas.
       </p>
       <p className="text-lg leading-relaxed">
-      aaaa <strong>10 años</strong> eeee
+      Se parte de la familia con mas de <strong>10 años</strong> de experiencia empresarial
      </p>
     </div>
   </motion.section>
