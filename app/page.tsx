@@ -68,67 +68,55 @@ export default function Home() {
 
       <motion.section
         id="servicios"
-        className="py-20 px-6 bg-white dark:bg-[#0a0a0a]"
+        className="py-20 px-6 bg-gray-50"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-12 text-gray-900 dark:text-white">Servicios Destacados</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
+          Nuestros Servicios
+        </h2>
 
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-            {/* Servicio 1 */}
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="bg-gradient-to-br from-green-100 to-green-50 dark:from-green-900 dark:to-green-800 p-6 rounded-lg shadow-md transition-all"
-            >
-              <h3 className="text-xl font-semibold text-green-800 dark:text-green-200 mb-2">
-                🧾 Facturación Electrónica
-              </h3>
-              <p className="text-sm text-gray-700 dark:text-gray-300">
-                Te migramos sin dolor. Desde cero. Sin multas. Y con todo en regla ante Hacienda.
-              </p>
-            </motion.div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* Servicio 1 */}
+          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
+            <h3 className="text-xl font-semibold text-blue-700 mb-2">
+              🧾 Transición a Facturación Electrónica
+            </h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Te ayudamos a migrar rápido, legal y sin errores al sistema obligatorio de facturación electrónica. Evita sanciones y empieza a facturar como un profesional hoy mismo.
+            </p>
+          </div>
 
-            {/* Servicio 2 */}
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="bg-gradient-to-br from-blue-100 to-blue-50 dark:from-blue-900 dark:to-blue-800 p-6 rounded-lg shadow-md transition-all"
-            >
-              <h3 className="text-xl font-semibold text-blue-800 dark:text-blue-200 mb-2">
-                🏢 Creación de Sociedades
-              </h3>
-              <p className="text-sm text-gray-700 dark:text-gray-300">
-                ¿Tu negocio aún es informal? Te ayudamos a legalizarlo con una SAS desde $1.00 de capital.
-              </p>
-            </motion.div>
+          {/* Servicio 2 */}
+          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
+            <h3 className="text-xl font-semibold text-green-700 mb-2">
+              🏢 Creación de Sociedades
+            </h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Te constituimos legalmente desde $1.00. Crea una SAS de forma rápida, sin socios ni papeleos eternos. Ideal para emprendedores individuales.
+            </p>
+          </div>
 
-            {/* Servicio 3 */}
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="bg-gradient-to-br from-yellow-100 to-yellow-50 dark:from-yellow-900 dark:to-yellow-800 p-6 rounded-lg shadow-md transition-all"
-            >
-              <h3 className="text-xl font-semibold text-yellow-800 dark:text-yellow-200 mb-2">
-                📚 Contabilidad Mensual
-              </h3>
-              <p className="text-sm text-gray-700 dark:text-gray-300">
-                No solo llevamos tus libros, te damos reportes, alertas y seguimiento estratégico mensual.
-              </p>
-            </motion.div>
+          {/* Servicio 3 */}
+          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
+            <h3 className="text-xl font-semibold text-purple-700 mb-2">
+              📊 Contabilidad Mensual para PYMES
+            </h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Llevamos tus libros, registramos todo y te preparamos para auditorías. Cero estrés contable. Nosotros lo manejamos todo.
+            </p>
+          </div>
 
-            {/* Servicio 4 */}
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="bg-gradient-to-br from-red-100 to-red-50 dark:from-red-900 dark:to-red-800 p-6 rounded-lg shadow-md transition-all"
-            >
-              <h3 className="text-xl font-semibold text-red-800 dark:text-red-200 mb-2">
-                📊 Asesoría Fiscal y Financiera
-              </h3>
-              <p className="text-sm text-gray-700 dark:text-gray-300">
-                Analizamos tu negocio y te decimos cómo pagar menos impuestos sin romper la ley.
-              </p>
-            </motion.div>
+          {/* Servicio 4 */}
+          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
+            <h3 className="text-xl font-semibold text-red-700 mb-2">
+              💼 Asesoría Fiscal y Financiera
+            </h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Optimiza impuestos, evita multas y toma decisiones inteligentes con nuestros contadores y asesores financieros. Habla con expertos.
+            </p>
           </div>
         </div>
       </motion.section>
