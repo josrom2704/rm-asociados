@@ -29,6 +29,8 @@ export default function Home() {
         </div>
       </motion.header>
 
+
+
       <motion.section
         className="bg-red-100 text-red-700 text-center p-4 font-bold text-lg"
         initial={{ opacity: 0 }}
@@ -38,6 +40,30 @@ export default function Home() {
       >
         ⚠️ ¿Estás listo para la facturación electrónica?
       </motion.section>
+
+      <motion.section
+    id="quienes"
+    className="py-20 px-6 bg-white text-gray-900 dark:bg-[#0a0a0a] dark:text-white"
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6 }}
+    viewport={{ once: true }}
+>
+    <div className="max-w-5xl mx-auto text-center">
+     <h2 className="text-4xl font-bold mb-6">¿Quiénes somos?</h2>
+      <p className="text-lg mb-4 leading-relaxed">
+      <strong>R&M Asociados</strong> nació con un solo propósito: que ningún pequeño empresario o
+      emprendedor se vea aplastado por Hacienda. 
+      </p>
+      <p className="text-lg leading-relaxed">
+      Somos un equipo de contadores públicos, asesores fiscales y expertos en sistemas que entienden lo que es luchar
+      día a día por mantener un negocio vivo. Llevamos más de <strong>10 años</strong> protegiendo a nuestros clientes con
+      una contabilidad sin excusas.
+     </p>
+    </div>
+  </motion.section>
+
+
 
       <motion.section
         className="py-12 px-6 bg-gray-50 scroll-mt-20"
