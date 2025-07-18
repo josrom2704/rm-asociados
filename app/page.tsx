@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function Home() {
   return (
@@ -134,9 +136,10 @@ export default function Home() {
         </form>
       </motion.section>
 
-      <footer className="text-center py-6 bg-gray-100">
-        <p>© 2025 R&M Asociados | Todos los derechos reservados</p>
-      </footer>
+      <WhatsAppButton />
+
+      <Footer />
+
     </main>
   );
 }
