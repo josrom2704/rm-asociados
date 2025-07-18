@@ -3,7 +3,9 @@ import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0a0a0a] text-white py-8">
+    <footer  
+    id = "redes"
+     className="bg-[#0a0a0a] text-white py-8">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <p className="mb-4 text-sm">© 2025 R&M Asociados | Todos los derechos reservados</p>
         
