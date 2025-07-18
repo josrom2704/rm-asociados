@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main className="bg-white min-h-screen text-gray-900 scroll-smooth">
       <motion.header
+        id = "inicio"
         className="text-center py-10 bg-gradient-to-b from-blue-800 to-blue-500 text-white"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -52,13 +53,10 @@ export default function Home() {
     <div className="max-w-5xl mx-auto text-center">
      <h2 className="text-4xl font-bold mb-6">¿Quiénes somos?</h2>
       <p className="text-lg mb-4 leading-relaxed">
-      <strong>R&M Asociados</strong> nació con un solo propósito: que ningún pequeño empresario o
-      emprendedor se vea aplastado por Hacienda. 
+      <strong>R&M Asociados</strong> mensaje tu ponelo apa
       </p>
       <p className="text-lg leading-relaxed">
-      Somos un equipo de contadores públicos, asesores fiscales y expertos en sistemas que entienden lo que es luchar
-      día a día por mantener un negocio vivo. Llevamos más de <strong>10 años</strong> protegiendo a nuestros clientes con
-      una contabilidad sin excusas.
+      aaaa <strong>10 años</strong> eeee
      </p>
     </div>
   </motion.section>
