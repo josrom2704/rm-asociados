@@ -41,7 +41,7 @@ export default function Home() {
         transition={{ delay: 0.3 }}
         viewport={{ once: true }}
       >
-        ¿Ya sabes como incorporarte a la facturacion electronica?
+        ⚠️¿Ya sabes como incorporarte a la facturacion electronica?
       </motion.section>
 
       <motion.section
