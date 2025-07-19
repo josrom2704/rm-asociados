@@ -131,7 +131,7 @@ export default function Home() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-2xl font-semibold text-center mb-4">Agenda tu consulta</h2>
+        <h2 className="text-2xl font-semibold text-center mb-4">Si tienes alguna duda, llena este formulario</h2>
         <form
           onSubmit={(e) => {
             e.preventDefault();
