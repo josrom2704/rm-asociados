@@ -19,8 +19,8 @@ export default function Home() {
           <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.3 }}>
             <Image src="/logo-rm.png" alt="Logo R&M" width={200} height={200} className="mx-auto mb-4" />
           </motion.div>
-          <h1 className="text-3xl font-bold">¿Estás listo para la facturación electrónica?</h1>
-          <p className="mt-2">R&M Asociados - Contabilidad sin excusas.</p>
+          <h1 className="text-3xl font-bold">¿Ya conoces sobre las Sociedades de Acciones Simplificadas?</h1>
+          <p className="mt-2">R&M Asociados - Contabilidades, Auditorias, Consultorias y Gestion Empresarial</p>
           <motion.a
             href="#formulario-consulta"
             className="inline-block mt-6 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded"
@@ -41,7 +41,7 @@ export default function Home() {
         transition={{ delay: 0.3 }}
         viewport={{ once: true }}
       >
-        ⚠️¿Ya sabes como incorporarte a la facturacion electronica?
+        ⚠️ ¿Ya sabes como incorporarte a la facturacion electronica?
       </motion.section>
 
       <motion.section
@@ -52,16 +52,30 @@ export default function Home() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">¿Quiénes somos?</h2>
-          <p className="text-lg mb-4 leading-relaxed">
-            <strong>R&M Asociados</strong> En R&M Asociados somos una firma regional comprometida con el crecimiento y la rentabilidad de las empresas. Brindamos asesoría especializada en áreas legales, contables y empresariales, acompañando a nuestros clientes en cada etapa de su desarrollo. Nos destacamos por ofrecer soluciones prácticas como la creación de manuales de procesos, control interno y diagnósticos operativos. También aplicamos principios de ingeniería empresarial para optimizar operaciones en negocios en marcha.
-            Con más de 10 años de experiencia, combinamos auditoría, consultoría y gestión estratégica para que tu empresa no solo cumpla con sus obligaciones, sino que crezca con bases sólidas.
-          </p>
-          <p className="text-lg leading-relaxed">
-            Se parte de la familia con mas de <strong>10 años</strong> de experiencia empresarial
-          </p>
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold mb-10 text-center">¿Quiénes somos?</h2>
+
+          <div className="space-y-6 text-lg leading-relaxed">
+            <p className="indent-0">
+              <strong>R&M Asociados</strong> es una firma regional comprometida con el crecimiento y la rentabilidad de pequeñas y medianas empresas. Brindamos asesoría especializada en áreas legales, contables y fiscales.
+            </p>
+
+            <p className="indent-0">
+              Acompañamos a nuestros clientes en cada etapa de su desarrollo empresarial con soluciones prácticas como manuales de procesos, control interno y diagnósticos operativos.
+            </p>
+
+            <p className="indent-0">
+              Aplicamos principios de ingeniería empresarial para optimizar operaciones en negocios en marcha y garantizar resultados sostenibles.
+            </p>
+
+            <p className="indent-0">
+              Con más de <strong>10 años de experiencia</strong>, combinamos auditoría, consultoría y gestión estratégica para que tu empresa no solo cumpla con sus obligaciones fiscales, sino que también crezca con bases sólidas.
+            </p>
+
+            <p className="text-center font-semibold text-blue-800 mt-8">
+              ✅ Somos tu equipo contable, legal y fiscal.
+            </p>
+          </div>
         </div>
       </motion.section>
 
@@ -117,6 +131,27 @@ export default function Home() {
             </h3>
             <p className="text-gray-700 text-sm leading-relaxed">
               Optimiza impuestos, evita multas y toma decisiones inteligentes con nuestros contadores y asesores financieros. Habla con expertos.
+            </p>
+          </div>
+          {/* Servicio 5 */}
+          <div className="bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
+            <h3 className="text-xl font-semibold mb-2 text-green-700">🏗️ Consultoría Empresarial</h3>
+            <p className="text-sm leading-relaxed">
+              Reingeniería de procesos, control interno, perfiles de puesto y flujogramas. Hacemos que tu empresa funcione.
+            </p>
+          </div>
+          {/* Servicio 6 */}
+          <div className="bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
+            <h3 className="text-xl font-semibold mb-2 text-green-700">🔚 Cierre de Empresas</h3>
+            <p className="text-sm leading-relaxed">
+              Te apoyamos en el proceso de cierre ante alcaldías, ISSS, AFP y Hacienda. Legal, rápido y sin estrés.
+            </p>
+          </div>
+          {/* Servicio 7 */}
+          <div className="bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
+            <h3 className="text-xl font-semibold mb-2 text-green-700">🛡️ Protección de Patrimonio</h3>
+            <p className="text-sm leading-relaxed">
+              Creamos estructuras offshore que resguardan tu capital en jurisdicciones seguras, lejos del riesgo local.
             </p>
           </div>
         </div>
