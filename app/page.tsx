@@ -95,66 +95,62 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Servicio 1 */}
-          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
-            <h3 className="text-xl font-semibold text-blue-700 mb-2">
-              🧾 Transición a Facturación Electrónica
-            </h3>
+          <a href="#formulario-consulta" className="block bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <h3 className="text-xl font-semibold text-blue-700 mb-2">🧾 Transición a Facturación Electrónica</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
               Te ayudamos a migrar rápido, legal y sin errores al sistema obligatorio de facturación electrónica. Evita sanciones y empieza a facturar como un profesional hoy mismo.
             </p>
-          </div>
+          </a>
 
           {/* Servicio 2 */}
-          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
-            <h3 className="text-xl font-semibold text-green-700 mb-2">
-              🏢 Creación de Sociedades
-            </h3>
+          <a href="#formulario-consulta" className="block bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <h3 className="text-xl font-semibold text-green-700 mb-2">🏢 Creación de Sociedades</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
               Te constituimos legalmente desde $1.00. Crea una SAS de forma rápida, sin socios ni papeleos eternos. Ideal para emprendedores individuales.
             </p>
-          </div>
+          </a>
 
           {/* Servicio 3 */}
-          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
-            <h3 className="text-xl font-semibold text-purple-700 mb-2">
-              📊 Contabilidad Mensual para PYMES
-            </h3>
+          <a href="#formulario-consulta" className="block bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <h3 className="text-xl font-semibold text-purple-700 mb-2">📊 Contabilidad Mensual para PYMES</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
               Llevamos tus libros, registramos todo y te preparamos para auditorías. Cero estrés contable. Nosotros lo manejamos todo.
             </p>
-          </div>
+          </a>
 
           {/* Servicio 4 */}
-          <div className="bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300">
-            <h3 className="text-xl font-semibold text-red-700 mb-2">
-              💼 Asesoría Fiscal y Financiera
-            </h3>
+          <a href="#formulario-consulta" className="block bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <h3 className="text-xl font-semibold text-red-700 mb-2">💼 Asesoría Fiscal y Financiera</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
               Optimiza impuestos, evita multas y toma decisiones inteligentes con nuestros contadores y asesores financieros. Habla con expertos.
             </p>
-          </div>
+          </a>
+
           {/* Servicio 5 */}
-          <div className="bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
-            <h3 className="text-xl font-semibold mb-2 text-green-700">🏗️ Consultoría Empresarial</h3>
-            <p className="text-sm leading-relaxed">
+          <a href="#formulario-consulta" className="block bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <h3 className="text-xl font-semibold text-emerald-700 mb-2">🏗️ Consultoría Empresarial</h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
               Reingeniería de procesos, control interno, perfiles de puesto y flujogramas. Hacemos que tu empresa funcione.
             </p>
-          </div>
+          </a>
+
           {/* Servicio 6 */}
-          <div className="bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
-            <h3 className="text-xl font-semibold mb-2 text-green-700">🔚 Cierre de Empresas</h3>
-            <p className="text-sm leading-relaxed">
+          <a href="#formulario-consulta" className="block bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <h3 className="text-xl font-semibold text-emerald-700 mb-2">🔚 Cierre de Empresas</h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
               Te apoyamos en el proceso de cierre ante alcaldías, ISSS, AFP y Hacienda. Legal, rápido y sin estrés.
             </p>
-          </div>
+          </a>
+
           {/* Servicio 7 */}
-          <div className="bg-white dark:bg-zinc-900 p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
-            <h3 className="text-xl font-semibold mb-2 text-green-700">🛡️ Protección de Patrimonio</h3>
-            <p className="text-sm leading-relaxed">
-              Creamos estructuras offshore que resguardan tu capital en jurisdicciones seguras, lejos del riesgo local.
+          <a href="#formulario-consulta" className="block bg-white shadow-lg rounded-xl p-6 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <h3 className="text-xl font-semibold text-emerald-700 mb-2">🛡️ Protección de Patrimonio</h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Creamos estructuras offshore que resguardan tu capital en jurisdicciones seguras y evitan el riesgo local.
             </p>
-          </div>
+          </a>
         </div>
+
       </motion.section>
 
 
