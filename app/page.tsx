@@ -35,13 +35,13 @@ export default function Home() {
 
 
       <motion.section
-        className="bg-red-100 text-red-700 text-center p-4 font-bold text-lg"
+        className="bg-blue-100 text-blue-700 text-center p-4 font-bold text-lg"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
         viewport={{ once: true }}
       >
-        ⚠️ ¿Estás listo para la facturación electrónica?
+        ⚠️ ¿Ya sabes como incorporarte a la facturacion electronica?
       </motion.section>
 
       <motion.section
@@ -52,6 +52,7 @@ export default function Home() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
+        
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">¿Quiénes somos?</h2>
           <p className="text-lg mb-4 leading-relaxed">
