@@ -19,7 +19,7 @@ export default function Home() {
           <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.3 }}>
             <Image src="/logo-rm.png" alt="Logo R&M" width={200} height={200} className="mx-auto mb-4" />
           </motion.div>
-          <h1 className="text-3xl font-bold">¿Estás listo para enfrentar a Hacienda?</h1>
+          <h1 className="text-3xl font-bold">¿Estás listo para la facturación electrónica?</h1>
           <p className="mt-2">R&M Asociados - Contabilidad sin excusas.</p>
           <motion.a
             href="#formulario-consulta"
