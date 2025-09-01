@@ -60,10 +60,10 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            ¿Ya conoces sobre las{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400">
-              Sociedades de Acciones Simplificadas?
-            </span>
+              R&M Asociados
+            </span>{" "}
+            - Tu Socio en Servicios Empresariales
           </motion.h1>
           
           <motion.p 
@@ -72,7 +72,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            R&M Asociados - Contabilidades, Auditorias, Consultorias y Gestion Empresarial
+            R&M Asociados - Contabilidades, Auditorías, Consultorías y Gestión Empresarial
           </motion.p>
           
           <motion.div
@@ -144,7 +144,7 @@ export default function Home() {
                   <strong className="text-2xl">R&M Asociados</strong> es una firma regional comprometida con el crecimiento y la rentabilidad de pequeñas y medianas empresas.
                 </p>
                 <p className="text-blue-800">
-                  Brindamos asesoría especializada en áreas legales, contables y fiscales.
+                  Brindamos asesoría especializada en áreas legales, contables y fiscales con servicios de asistencia virtual profesional.
                 </p>
               </div>
 
