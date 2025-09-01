@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "R&M Asociados - Servicios de Contabilidad, Auditoría y Consultoría | Unasistentesv.com",
-  description: "R&M Asociados - Servicios profesionales de contabilidad, auditoría, consultoría empresarial y asistencia virtual. Tu socio estratégico para el crecimiento de tu empresa.",
-  keywords: "R&M Asociados, contabilidad, auditoría, consultoría, servicios empresariales, asistencia virtual, El Salvador",
+  title: "R&M Asociados - Contadores y Consultores Empresariales | Unasistentesv.com",
+  description: "R&M Asociados - Contadores profesionales especializados en contabilidad, auditoría, consultoría empresarial y servicios de asistencia virtual. NO somos abogados, somos contadores.",
+  keywords: "R&M Asociados, contadores, contabilidad, auditoría, consultoría, servicios contables, El Salvador, NO abogados",
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     apple: '/logo-rm.png',
   },
   openGraph: {
-    title: "R&M Asociados - Servicios de Contabilidad y Consultoría",
-    description: "Servicios profesionales de contabilidad, auditoría, consultoría empresarial y asistencia virtual",
+    title: "R&M Asociados - Contadores y Consultores Empresariales",
+    description: "Contadores profesionales especializados en contabilidad, auditoría, consultoría empresarial y servicios de asistencia virtual",
     type: "website",
     url: "https://unasistentesv.com",
   },
@@ -39,10 +39,70 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+                             "@context": "https://schema.org",
+               "@type": "AccountingService",
+               "name": "R&M Asociados - Contadores y Consultores",
+               "description": "Contadores profesionales especializados en contabilidad, auditoría, consultoría empresarial y servicios de asistencia virtual. NO somos abogados, somos contadores.",
+               "url": "https://unasistentesv.com",
+               "logo": "https://unasistentesv.com/logo-rm.png",
+               "image": "https://unasistentesv.com/logo-rm.png",
+               "telephone": "+50376416944",
+               "address": {
+                 "@type": "PostalAddress",
+                 "addressCountry": "SV",
+                 "addressRegion": "San Salvador"
+               },
+               "serviceType": [
+                 "Contabilidad",
+                 "Auditoría",
+                 "Consultoría Empresarial",
+                 "Asistencia Virtual",
+                 "Servicios Contables"
+               ],
+               "areaServed": "El Salvador",
+               "additionalProperty": {
+                 "@type": "PropertyValue",
+                 "name": "Tipo de Servicio",
+                 "value": "Contadores Profesionales"
+               },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Servicios Contables y Empresariales",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Contabilidad Mensual"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Auditoría"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Consultoría Empresarial"
+                    }
+                  }
+                ]
+              }
+            })
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth pt-16`}

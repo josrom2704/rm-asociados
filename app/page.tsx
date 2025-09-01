@@ -63,7 +63,7 @@ export default function Home() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400">
               R&M Asociados
             </span>{" "}
-            - Tu Socio en Servicios Empresariales
+            - Contadores y Consultores Empresariales
           </motion.h1>
           
           <motion.p 
